@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1594405153987702}
+  m_IsPrefabParent: 1
+--- !u!1 &1594405153987702
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4228315820553206}
+  - component: {fileID: 114515817970175622}
+  m_Layer: 0
+  m_Name: FireItemPackage2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4228315820553206
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1594405153987702}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 10.171119, y: 2.363955e-17, z: -1.0646306}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114515817970175622
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1594405153987702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9f83db71b9a6764abf964ab7679f035, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: FireExt
+  packageType: 0
+  itemPrefab: {fileID: 1763865592210510, guid: f5634b06b7255dd4ab185729b7dd7403, type: 2}
+  otherHandItemPrefab: {fileID: 1346667549007346, guid: e20e9dc8ad1916d438a00bc6dca563c3,
+    type: 2}
+  previewPrefab: {fileID: 1864648843062816, guid: 7fddaf7888f0ea848aa881934cb3041c,
+    type: 2}
+  fadedPreviewPrefab: {fileID: 1879747991515736, guid: 9539a5676fe23524e8091ecbf5653292,
+    type: 2}
